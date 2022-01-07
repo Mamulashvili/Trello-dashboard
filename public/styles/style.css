@@ -1,0 +1,102 @@
+input,
+textarea {
+  width: 100%;
+  border: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+input {
+  font-weight: 500;
+  color: #595b5f;
+}
+
+textarea {
+  font-size: 12px;
+  color: #595b5f;
+}
+
+.small {
+  font-size: 11px;
+  font-weight: 500;
+  color: #768296;
+}
+
+.x-small {
+  font-size: 12px;
+  font-weight: 400;
+  color: #5c6a82;
+  margin-bottom: 0;
+}
+
+.img-small {
+  max-width: 25px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.cust-btn-group {
+  padding: 4px 6px;
+  font-size: 12px;
+}
+
+.custom-dropdown-menu,
+.form,
+.form-control {
+  padding: 0.3rem 0;
+  min-width: 7rem;
+  font-size: 12px;
+  padding: 0.23rem;
+}
+
+.custom-dropdown-menu .dropdown-item,
+.form .dropdown-item,
+.form-control .dropdown-item {
+  font-size: 12px;
+}
+
+.customTaskHeaderBtn {
+  background-color: #f6f6f7;
+  border-color: #f6f6f7;
+  color: #7E889B;
+}
+
+.highlight {
+  margin: 0;
+  font-weight: 700;
+  font-size: 12px;
+  color: #4A5975;
+  margin-top: 10px;
+}
+
+.activity-routes span,
+.activity-routes p,
+.activity-routes a {
+  font-size: 11px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.activity-routes span {
+  font-weight: 500;
+  color: #595b5f;
+}
+
+.activity-routes a {
+  background-color: #F4F5F7;
+  padding: 3px 5px;
+  color: #AAB1BE;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+
+.activity-routes a:hover {
+  background-color: #595b5f;
+  color: #F4F5F7;
+}
+/*# sourceMappingURL=style.css.map */
