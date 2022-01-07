@@ -1,9 +1,36 @@
 # Trello
+Load data from `data/board.js` or localstorage and make actions: 
+- Add/move columns
+- Add/move tasks
+- Set status
+- Assign user
+- Assign status
+- Fetch/add comments
+- Validate inputs with `Vuelidate` and display error message 
+
+
+Changes saved in `localstorage`
 
 ## Project setup
 ```
 npm install
 ```
+
+Dependencies:
+- Vuex
+- Vue router
+- Vuelidate
+
+Global components:
+- BaseModal
+- BaseButton
+- BaseDropdown
+
+Plugins:
+- Custom directive for background and text color: `backgroundDirective`
+
+usage:
+`v-bgc:[backgroundColorCode]="'textColorCode'"`
 
 ## Draggable api
 
